@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 import classnames from "classnames";
 
+const state = { loading: true };
+
 class Dashboard extends Component {
   render() {
     const dashboardClasses = classnames("dashboard");
